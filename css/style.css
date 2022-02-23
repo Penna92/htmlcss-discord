@@ -115,7 +115,7 @@ h1, #jumbotron p {
 .main-section {
     width: 100%;
     /* min-height: 100vh; */
-    padding-top: 50px;
+    padding: 100px 0;
 }
 .image {
     /* height: 500px; */
@@ -137,11 +137,11 @@ h2 {
     margin-bottom: 20px;
 }
 .main-section p {
-    font-size: 1.5vw;
-    overflow:hidden;
+    font-size: 1.4vw;
+    line-height: 1.2em;
 }
 .wave {
-    height: 10vw;
+    height: 5vw;
     width: 100%;
     background-image: url(../img/wave.svg); 
     background-size: cover;
@@ -154,7 +154,7 @@ h2 {
     float: right;
 }
 .wave2{
-    height: 10vw;
+    height: 5vw;
     width: 100%;
     object-fit: cover;
     opacity: 0.1;
@@ -164,9 +164,41 @@ h2 {
     transform: rotate(180deg);
     position: absolute;
 }
-.main-section:nth-child(3) {    
+.main-section:nth-child(4),
+.main-section:nth-child(8) {    
     background-color: #E5E5E5;
 }
+.image-center {
+    margin: 0 auto;
+    width:80%;
+}
+.image-center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.description-center {
+    text-align: center;
+    padding: 2.5vw 10vw;
+    width: 100%;    
+}
+.stars {
+    width: 50%;
+    margin: 0 auto;
+}
+.stars img {
+    width: 100%;
+    object-fit: cover;
+}
+.title-center{
+    width: 100%;
+    text-align: center;    
+}
+h3 {
+    font-size: 2.5vw;
+}
+
+
 
 
 
