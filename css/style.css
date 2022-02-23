@@ -198,6 +198,23 @@ h3 {
     font-size: 2.5vw;
 }
 
+/* footer */
+
+footer {
+    height: 70vh;
+    background-color: #23272a;
+}
+
+.centered {
+    text-align: center;
+}
+
+a.centered {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+}
+
 
 
 
