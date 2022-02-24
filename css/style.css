@@ -63,7 +63,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: 0 2vw;
+  margin: 0 1vw;
 }
 nav ul li a {
   color: white;
@@ -125,7 +125,7 @@ h1,
 #jumbotron .container > a.btn {
   margin: 0 10px;
 }
-.fas.fa-long-arrow-alt-down {
+.white-black .fas.fa-long-arrow-alt-down {
   color: #23272a;
 }
 .main-section {
